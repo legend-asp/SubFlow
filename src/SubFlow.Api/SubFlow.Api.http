@@ -1,0 +1,6 @@
+@SubFlow.Api_HostAddress = http://localhost:5047
+
+GET {{SubFlow.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
