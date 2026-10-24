@@ -11,5 +11,6 @@ namespace SubFlow.Api.Domain.Entities
         public DateTime CreatedAtUtc { get; set; }
 
         public virtual ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
+        public virtual ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
     }
 }

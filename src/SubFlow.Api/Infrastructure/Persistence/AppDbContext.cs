@@ -12,6 +12,9 @@ namespace SubFlow.Api.Infrastructure.Persistence
         }
         public DbSet<User> Users => Set<User>();
         public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
+        public DbSet<Plan> Plans => Set<Plan>();
+        public DbSet<Subscription> Subscriptions => Set<Subscription>();
+        public DbSet<ProcessedWebhookEvent> ProcessedWebhookEvents => Set<ProcessedWebhookEvent>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

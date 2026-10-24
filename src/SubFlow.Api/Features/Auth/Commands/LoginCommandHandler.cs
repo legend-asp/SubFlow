@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Options;
@@ -44,7 +44,7 @@ namespace SubFlow.Api.Features.Auth.Commands
 
             var accessToken = tokenService.GenerateAccessToken(user);
 
-            user.RefreshTokens.Add(refreshToken);
+            context.RefreshTokens.Add(refreshToken);
 
             await context.SaveChangesAsync(cancellationToken);
 
