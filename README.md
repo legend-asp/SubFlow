@@ -83,7 +83,7 @@ SubFlow/
 
 ```powershell
 # 1. Clone repository
-git clone https://github.com/yandereye1/SubFlow.git
+git clone https://github.com/legend-asp/SubFlow.git
 cd SubFlow
 
 # 2. Start PostgreSQL via Docker
@@ -102,4 +102,4 @@ The Web API will launch with OpenAPI enabled.
 
 ## 👨‍💻 Author
 
-GitHub: [@yandereye1](https://github.com/yandereye1)
+GitHub: [@legend-asp](https://github.com/legend-asp)
